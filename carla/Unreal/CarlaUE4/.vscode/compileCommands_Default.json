@@ -1,0 +1,1497 @@
+[
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorAttribute.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorBlueprintFunctionLibrary.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorBlueprintFunctionLibrary.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorData.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorData.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorDefinition.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorDescription.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorDispatcher.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorDispatcher.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorInfo.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorRegistry.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorRegistry.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorSpawnResult.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorSpawnResult.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/CarlaActor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/CarlaActor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/CarlaActorFactory.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/CarlaActorFactoryBlueprint.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/CarlaBlueprintRegistry.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/CarlaBlueprintRegistry.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/PedestrianParameters.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/PropParameters.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/StaticMeshFactory.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/StaticMeshFactory.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/VehicleParameters.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/AI/AIControllerFactory.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/AI/AIControllerFactory.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/AI/WalkerAIController.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Carla.Build.cs",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Carla.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Carla.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/CityMapGenerator.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/CityMapGenerator.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Commandlet/LoadAssetMaterialsCommandlet.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Commandlet/LoadAssetMaterialsCommandlet.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Commandlet/MoveAssetsCommandlet.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Commandlet/MoveAssetsCommandlet.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Commandlet/PrepareAssetsForCookingCommandlet.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Commandlet/PrepareAssetsForCookingCommandlet.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaEngine.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaEngine.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaEpisode.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaEpisode.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaGameInstance.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaGameInstance.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaGameModeBase.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaGameModeBase.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaHUD.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaHUD.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaStaticDelegates.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaStaticDelegates.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaStatics.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaStatics.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/TaggedComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/TaggedComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/Tagger.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/Tagger.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/TaggerDelegate.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/TaggerDelegate.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Lights/CarlaLight.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Lights/CarlaLight.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Lights/CarlaLightSubsystem.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Lights/CarlaLightSubsystem.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/CityAreaDescription.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/CityMapDefinitions.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/CityMapMeshHolder.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/CityMapMeshHolder.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/CityMapMeshTag.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/CityMapMeshTag.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/DoublyConnectedEdgeList.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/DoublyConnectedEdgeList.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/GraphGenerator.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/GraphGenerator.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/GraphParser.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/GraphParser.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/GraphTypes.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/GraphTypes.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/LargeMapManager.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/LargeMapManager.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/Position.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/ProceduralBuilding.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/ProceduralBuilding.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/RoadMap.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/RoadMap.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/RoadSegmentDescription.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/StaticMeshCollection.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/StaticMeshCollection.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/UncenteredPivotPointMesh.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/UncenteredPivotPointMesh.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Math/DVector.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDriveActor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDriveActor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDriveGenerator.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDriveGenerator.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDriveMap.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDriveMap.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorder.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorder.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderAnimVehicle.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderAnimVehicle.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderAnimWalker.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderAnimWalker.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderBoundingBox.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderBoundingBox.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderCollision.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderCollision.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderEventAdd.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderEventAdd.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderEventDel.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderEventDel.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderEventParent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderEventParent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderFrames.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderFrames.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderHelpers.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderHelpers.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderInfo.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderKinematics.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderKinematics.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderLightScene.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderLightScene.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderLightVehicle.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderLightVehicle.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderPhysicsControl.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderPhysicsControl.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderPlatformTime.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderPlatformTime.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderPosition.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderPosition.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderQuery.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderQuery.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderState.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderState.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderTraficLightTime.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaRecorderTraficLightTime.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaReplayer.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaReplayer.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaReplayerHelper.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Recorder/CarlaReplayerHelper.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/AsyncDataStream.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/AsyncDataStream.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/CollisionSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/CollisionSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/DataStream.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/DepthCamera.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/DepthCamera.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/DVSCamera.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/DVSCamera.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/GnssSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/GnssSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/InertialMeasurementUnit.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/InertialMeasurementUnit.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/InstanceSegmentationCamera.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/InstanceSegmentationCamera.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/LaneInvasionSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/LaneInvasionSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/LidarDescription.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/ObstacleDetectionSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/ObstacleDetectionSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/OpticalFlowCamera.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/OpticalFlowCamera.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/PixelReader.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/PixelReader.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Radar.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Radar.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/RayCastLidar.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/RayCastLidar.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/RayCastSemanticLidar.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/RayCastSemanticLidar.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/RssSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/RssSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SafeDistanceSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SafeDistanceSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SceneCaptureCamera.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SceneCaptureCamera.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SceneCaptureSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SceneCaptureSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SemanticSegmentationCamera.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SemanticSegmentationCamera.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SensorFactory.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SensorFactory.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/ShaderBasedSensor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/ShaderBasedSensor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/WorldObserver.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/WorldObserver.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Server/CarlaServer.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Server/CarlaServer.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Server/CarlaServerResponse.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Server/CarlaServerResponse.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/CarlaSettings.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/CarlaSettings.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/CarlaSettingsDelegate.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/CarlaSettingsDelegate.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/EpisodeSettings.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/QualityLevelUE.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/RoutePlanner.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/RoutePlanner.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/SignComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/SignComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/SpeedLimitComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/SpeedLimitComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/StopSignComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/StopSignComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightBase.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightBase.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightController.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightController.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightGroup.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightGroup.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightInterface.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightManager.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightManager.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficLightState.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficSignBase.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/TrafficSignBase.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/YieldSignComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/YieldSignComponent.cpp.ORIG",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Traffic/YieldSignComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Trigger/FrictionTrigger.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Trigger/FrictionTrigger.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Trigger/TriggerFactory.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Trigger/TriggerFactory.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ActorAttacher.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ActorAttacher.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ActorWithRandomEngine.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ActorWithRandomEngine.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/BoundingBox.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/BoundingBoxCalculator.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/BoundingBoxCalculator.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/DebugShapeDrawer.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/DebugShapeDrawer.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/EmptyActor.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/EmptyActor.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/EnvironmentObject.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/IniFile.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ListView.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/NavigationMesh.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/NavigationMesh.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/NonCopyable.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/NoWorldOffsetSceneComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/NoWorldOffsetSceneComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ObjectRegister.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ObjectRegister.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ProceduralCustomMesh.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/RandomEngine.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/RandomEngine.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/RayTracer.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/RayTracer.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/RoadPainterWrapper.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/RoadPainterWrapper.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Util/ScopedStack.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/CarlaWheeledVehicle.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/CarlaWheeledVehicle.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/CarlaWheeledVehicleState.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/BaseCarlaMovementComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/BaseCarlaMovementComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/CarSimManagerComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/CarSimManagerComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/ChronoMovementComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/ChronoMovementComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehicleControl.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehicleInputPriority.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehicleLightState.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehiclePhysicsControl.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehicleSpawnPoint.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehicleVelocityControl.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/VehicleVelocityControl.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleAIController.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleAIController.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheelPhysicsControl.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerAnim.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerAnim.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerBase.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerBase.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerBoneControlIn.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerBoneControlOut.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerControl.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerSpawnPoint.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Weather/Weather.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Weather/Weather.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Weather/WeatherParameters.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/Carla.1.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/CarlaExporter/Source/CarlaExporter/CarlaExporter.Build.cs",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaExporter.8.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/CarlaExporter/Source/CarlaExporter/Private/CarlaExporter.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaExporter.8.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/CarlaExporter/Source/CarlaExporter/Private/CarlaExporterCommands.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaExporter.8.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/CarlaExporter/Source/CarlaExporter/Public/CarlaExporter.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaExporter.8.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Plugins/CarlaExporter/Source/CarlaExporter/Public/CarlaExporterCommands.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaExporter.8.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Source/CarlaUE4/CarlaUE4.Build.cs",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaUE4.143.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Source/CarlaUE4/CarlaUE4.cpp",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaUE4.143.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	},
+	{
+		"file": "/home/exx/Documents/carla/Unreal/CarlaUE4/Source/CarlaUE4/CarlaUE4.h",
+		"command": "cl.exe @\"/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default/CarlaUE4.143.rsp\"",
+		"directory": "/home/exx/UnrealEngine_4.26/Engine/Source"
+	}
+]

@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "CarlaUE4Editor Editor Linux Development (CarlaUE4)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_CarlaUE4.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/exx/Documents/carla/Unreal/CarlaUE4/.vscode/compileCommands_Default.json"
+		}
+	]
+}
