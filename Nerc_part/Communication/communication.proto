@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package communication;
+
+service CommunicationService {
+  rpc SendMessage (MessageRequest) returns (MessageResponse);
+  rpc ReceiveMessage (Empty) returns (MessageResponse);
+  rpc UploadPhoto (PhotoRequest) returns (PhotoResponse);
+  rpc DownloadPhoto (Empty) returns (PhotoResponse); // Server sends photo to client
+}
+
+message MessageRequest {
+  string message = 1;
+}
+
+message MessageResponse {
+  string message = 1;
+}
+
+message Empty {}
+
+message PhotoRequest {
+  bytes photo = 1; // Use bytes to handle the photo data
+}
+
+message PhotoResponse {
+  bytes photo = 1; // For downloading photos
+  string status = 2; // Confirmation or status message
+}
