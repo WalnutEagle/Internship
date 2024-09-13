@@ -1,6 +1,10 @@
 import torch
 import torch.nn as nn
+import torchvision.models as models
+import torch.nn as nn
+import numpy as np
 import timm
+from torchvision.models.feature_extraction import create_feature_extractor
 
 class CustomResNet18(nn.Module):
     def __init__(self):
@@ -32,17 +36,17 @@ class CustomResNet18(nn.Module):
         
         return x
 
-# # Example usage
-# if __name__ == "__main__":
-#     # Initialize the model
-#     model = CustomResNet18()
+# Example usage
+if __name__ == "__main__":
+    # Initialize the model
+    model = CustomResNet18()
     
-#     # Dummy input tensor with shape (batch_size, channels, height, width)
-#     # Adjust the size according to your input images (e.g., 3 for RGB images, 224x224 pixels)
-#     dummy_input = torch.randn(1, 3, 224, 224)  # Batch size 1, 3 channels, 224x224 image
+    # Dummy input tensor with shape (batch_size, channels, height, width)
+    # Adjust the size according to your input images (e.g., 3 for RGB images, 224x224 pixels)
+    dummy_input = torch.randn(1, 3, 224, 224)  # Batch size 1, 3 channels, 224x224 image
 
-#     # Forward pass through the model
-#     output = model(dummy_input)
+    # Forward pass through the model
+    output = model(dummy_input)
     
-#     # Print the final output shape
-#     print("Final output shape:", output.shape)
+    # Print the final output shape
+    print("Final output shape:", output)
