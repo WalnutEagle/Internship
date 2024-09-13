@@ -5,6 +5,7 @@ import torch.nn as nn
 import numpy as np
 import timm
 from torchvision.models.feature_extraction import create_feature_extractor
+from .Communication.Server.server import CommunicationService, serve
 
 class CustomResNet18(nn.Module):
     def __init__(self):
