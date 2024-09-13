@@ -7,6 +7,8 @@ service CommunicationService {
   rpc ReceiveMessage (Empty) returns (MessageResponse);
   rpc UploadPhoto (PhotoRequest) returns (PhotoResponse);
   rpc DownloadPhoto (Empty) returns (PhotoResponse); // Server sends photo to client
+  rpc SendTensor (TensorRequest) returns (TensorResponse);
+  rpc ReceiveTensor (Empty) returns (TensorResponse); // Server sends tensor to client
 }
 
 message MessageRequest {
@@ -26,4 +28,18 @@ message PhotoRequest {
 message PhotoResponse {
   bytes photo = 1; // For downloading photos
   string status = 2; // Confirmation or status message
+}
+
+// New messages for tensor handling
+message TensorRequest {
+  repeated int32 shape = 1; // Shape of the tensor (e.g., [2, 3] for a 2D tensor)
+  string data_type = 2; // Data type of the tensor (e.g., "float32", "int32")
+  bytes data = 3; // Actual tensor data as bytes
+}
+
+message TensorResponse {
+  string status = 1; // Confirmation or status message
+  repeated int32 shape = 2; // Shape of the received tensor
+  string data_type = 3; // Data type of the received tensor
+  bytes data = 4; // Actual tensor data as bytes
 }
