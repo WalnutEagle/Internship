@@ -198,8 +198,8 @@ def train(data_folder, save_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='EC500 Homework1 Imitation Learning')
-    parser.add_argument('-d', '--data_folder', default="./", type=str, help='Path to your dataset')
-    parser.add_argument('-s', '--save_path', default="./model.pth", type=str, help='Path to save your model')
+    parser.add_argument('-d', '--data_folder', default="/home/h2x/Desktop/IL_DATA_COLLECTION_ADWAIT/Main_script/09-15-2024", type=str, help='Path to your dataset')
+    parser.add_argument('-s', '--save_path', default="/home/h2x/Desktop/IL_DATA_COLLECTION_ADWAIT/Main_script/09-15-2024/model.pth", type=str, help='Path to save your model')
     args = parser.parse_args()
     
     train(args.data_folder, args.save_path)
