@@ -85,7 +85,7 @@ def run():
     start_time = time.time()
     
     # Establish channel and stub
-    channel = grpc.insecure_channel('localhost:8083')  # Changed to localhost for testing
+    channel = grpc.insecure_channel('128.197.164.40:8083')  # Changed to localhost for testing
     stub = communication_pb2_grpc.CommunicationServiceStub(channel)
     log_time_info("Channel and Stub Setup", start_time)
 
