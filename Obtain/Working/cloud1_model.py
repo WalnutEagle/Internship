@@ -42,12 +42,11 @@ import timm
 class CustomRegNetY002(nn.Module):
     def __init__(self):
         super(CustomRegNetY002, self).__init__()
-        # Create the base RegNetY_002 model
         self.model = timm.create_model('regnety_002', pretrained=True)
 
         # Modify the first convolution layer to accept 4 channels (RGB + Depth)
         self.model.stem.conv = nn.Conv2d(
-            4,  # Change input channels from 3 (RGB) to 4 (RGB + Depth)
+            4,
             self.model.stem.conv.out_channels, 
             kernel_size=self.model.stem.conv.kernel_size, 
             stride=self.model.stem.conv.stride, 
@@ -59,10 +58,10 @@ class CustomRegNetY002(nn.Module):
         self.lin = nn.Sequential(
             nn.Linear(self.model.head.fc.in_features, 512),
             nn.LeakyReLU(negative_slope=0.2),
-            nn.Dropout(0.5),  # Add Dropout
+            nn.Dropout(0.5), 
             nn.Linear(512, 256),
             nn.LeakyReLU(negative_slope=0.2),
-            nn.Dropout(0.5),  # Add Dropout
+            nn.Dropout(0.5),  
             nn.Linear(256, 2)  # 2 outputs: steering and throttle
         )
 

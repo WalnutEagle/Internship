@@ -139,6 +139,7 @@ import time
 import argparse
 from cloud1_model import CustomRegNetY002
 import logging
+from cloud1_dataloader import CarlaDataset
 
 def train(data_folder, save_path):
     device = torch.device('cuda')
@@ -146,11 +147,11 @@ def train(data_folder, save_path):
     nr_epochs = 200
     batch_size = 16
     start_time = time.time()
-    l1_lambda = 0.001  # L1 regularization factor
+    l1_lambda = 0.001 
 
     # Create the DataLoader
     try:
-        full_dataset = CarlaDataset(data_folder)  # Create dataset instance
+        full_dataset = CarlaDataset(data_folder) 
         full_size = len(full_dataset)
 
         # Split the dataset into training (70%), validation (15%), and testing (15%)
@@ -165,7 +166,7 @@ def train(data_folder, save_path):
         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
         # Initialize the model
-        model = CustomRegNetY002()  # Ensure this matches your model definition
+        model = CustomRegNetY002()  
         model = nn.DataParallel(model)
         model.to(device)
 
@@ -181,19 +182,19 @@ def train(data_folder, save_path):
             total_loss = 0
 
             # Training phase
-            model.train()  # Set the model to training mode
+            model.train()
             for batch_idx, (batch_in, batch_gt) in enumerate(train_loader):
                 batch_in = batch_in.to(device)
                 batch_gt = batch_gt.to(device)
 
                 # Forward pass
                 optimizer.zero_grad()
-                batch_out = model(batch_in)  # Pass only the combined RGB and depth images
+                batch_out = model(batch_in)
                 loss = criterion(batch_out, batch_gt)
 
                 # L1 Regularization
                 l1_norm = sum(p.abs().sum() for p in model.parameters())
-                loss += l1_lambda * l1_norm  # Add L1 penalty
+                loss += l1_lambda * l1_norm 
 
                 # Backward pass and optimization
                 loss.backward()
@@ -206,7 +207,7 @@ def train(data_folder, save_path):
             scheduler.step()
 
             # Validation phase
-            model.eval()  # Set the model to evaluation mode
+            model.eval()  
             val_total_loss = 0
             with torch.no_grad():
                 for val_batch in val_loader:
@@ -243,7 +244,7 @@ def train(data_folder, save_path):
         plt.ylabel('Loss')
         plt.legend()
         plt.savefig('Loss_Plot.jpg')
-        plt.show()  # Display the plot
+        plt.show() 
 
     except Exception as e:
         logging.error(f"An error occurred during training: {str(e)}")

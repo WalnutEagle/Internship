@@ -38,7 +38,6 @@ class CarlaDataset(Dataset):
             json_dir = os.path.join(run_dir, 'json')
             self.data_list += glob.glob(os.path.join(json_dir, '*.json'))
 
-        # Ensure all lists have the same length
         min_length = min(len(self.img_list), len(self.depth_list), len(self.data_list))
         self.img_list = self.img_list[:min_length]
         self.depth_list = self.depth_list[:min_length]
@@ -51,20 +50,18 @@ class CarlaDataset(Dataset):
 
     def __getitem__(self, idx):
         try:
-            # Load the JSON file
             with open(self.data_list[idx], 'r') as f:
                 data = json.load(f)
 
             # Extract actions (steering and throttle)
             actions = torch.Tensor([data["Steer"], data["Throttle"]])
 
-            # Load the corresponding RGB image
+
             img_path = self.img_list[idx]
             img = read_image(img_path)
             
-            # Ensure the RGB image is 300x300
-            img = img[:3, :, :]  # Keep only the first 3 channels (RGB)
-            img = transforms.Resize((300, 300))(img)  # Ensure the image is 300x300
+            img = img[:3, :, :] 
+            img = transforms.Resize((300, 300))(img) 
             
             normalized_image = img.float() / 255.0  # Normalize image to [0, 1]
 
@@ -73,16 +70,10 @@ class CarlaDataset(Dataset):
             depth_img = read_image(depth_path)
             depth_img = depth_img.float() / 255.0  # Normalize depth to [0, 1]
 
-            # Resize the depth image to match the RGB image dimensions
             depth_img = transforms.Resize((300, 300))(depth_img)
-
-            # Log image shapes for debugging
-            # logging.info(f"RGB image shape: {normalized_image.shape}, Depth image shape: {depth_img.shape}")
-
-            # Concatenate the images
             combined_image = torch.cat((normalized_image, depth_img), dim=0)
 
-            return combined_image, actions  # Return combined image and actions
+            return combined_image, actions 
         except Exception as e:
             logging.error(f"Error processing item {idx}: {str(e)}")
             raise
