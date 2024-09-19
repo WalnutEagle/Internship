@@ -61,13 +61,11 @@ class CarlaDataset(Dataset):
             # Load the corresponding RGB image
             img_path = self.img_list[idx]
             img = read_image(img_path)
-
-            # Check if the image dimensions are valid
-            height, width = img.shape[1], img.shape[2]
-            if height < 600 or width < 880:
-                raise ValueError(f"Image size too small for cropping: {img.shape}")
-
-            img = img[:3, 120:min(600, height), 400:min(880, width)]  # Crop the image safely
+            
+            # Ensure the RGB image is 300x300
+            img = img[:3, :, :]  # Keep only the first 3 channels (RGB)
+            img = transforms.Resize((300, 300))(img)  # Ensure the image is 300x300
+            
             normalized_image = img.float() / 255.0  # Normalize image to [0, 1]
 
             # Load the corresponding depth image
@@ -75,11 +73,11 @@ class CarlaDataset(Dataset):
             depth_img = read_image(depth_path)
             depth_img = depth_img.float() / 255.0  # Normalize depth to [0, 1]
 
+            # Resize the depth image to match the RGB image dimensions
+            depth_img = transforms.Resize((300, 300))(depth_img)
+
             # Log image shapes for debugging
             logging.info(f"RGB image shape: {normalized_image.shape}, Depth image shape: {depth_img.shape}")
-
-            # Resize depth image to match the RGB image dimensions
-            depth_img = transforms.Resize(normalized_image.shape[1:], antialias=True)(depth_img)
 
             # Concatenate the images
             combined_image = torch.cat((normalized_image, depth_img), dim=0)
@@ -88,6 +86,7 @@ class CarlaDataset(Dataset):
         except Exception as e:
             logging.error(f"Error processing item {idx}: {str(e)}")
             raise
+
 
 
 def train(data_folder, save_path):
