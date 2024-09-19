@@ -233,9 +233,9 @@ class CarlaDataset(Dataset):
 
     def __len__(self):
         return len(self.data_list)
-
+    
     def __getitem__(self, idx):
-        # Load the JSON file
+    # Load the JSON file
         with open(self.data_list[idx], 'r') as f:
             data = json.load(f)
 
@@ -252,12 +252,16 @@ class CarlaDataset(Dataset):
         depth_path = self.depth_list[idx]
         depth_img = read_image(depth_path)
         depth_img = depth_img.float() / 255.0  # Normalize depth if needed
-        depth_img = depth_img.unsqueeze(0)  # Add channel dimension for depth
+
+        # Ensure depth image is squeezed to 2D if it has a channel dimension
+        if depth_img.dim() == 3:
+            depth_img = depth_img.squeeze(0)  # Remove channel dimension if exists
 
         # Concatenate RGB and depth images
-        combined_image = torch.cat((normalized_image, depth_img), dim=0)
+        combined_image = torch.cat((normalized_image, depth_img.unsqueeze(0)), dim=0)
 
         return combined_image, actions  # Return combined image and actions
+
 
 def get_dataloader(data_dir, batch_size, num_workers=4):
     return torch.utils.data.DataLoader(
