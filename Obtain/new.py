@@ -13,7 +13,7 @@ import argparse
 from cloud1_model import CustomRegNetY002
 
 # Define the dataset class
-class data(Dataset):
+class CarlaDataset(Dataset):
     def __init__(self, data_dir):
         self.img_list = []
         self.depth_list = []
@@ -58,11 +58,21 @@ class data(Dataset):
         depth_img = read_image(depth_path)
         depth_img = depth_img.float() / 255.0  # Normalize depth if needed
 
-        # Resize depth image to match the RGB image dimensions
-        depth_img = torch.nn.functional.interpolate(depth_img.unsqueeze(0), size=normalized_image.shape[1:], mode='bilinear', align_corners=False)
-        
-        # Concatenate RGB and depth images
-        combined_image = torch.cat((normalized_image, depth_img.squeeze(0)), dim=0)
+        # Check the size of images
+        if normalized_image.shape[1:] == depth_img.shape[1:]:
+            # Sizes are already matching
+            combined_image = torch.cat((normalized_image, depth_img), dim=0)
+        else:
+            # Resize depth image to match the RGB image dimensions
+            depth_img = torch.nn.functional.interpolate(
+                depth_img.unsqueeze(0),
+                size=normalized_image.shape[1:],  # Make sure to resize to the shape of normalized_image
+                mode='bilinear',
+                align_corners=False
+            )
+
+            # Concatenate the images
+            combined_image = torch.cat((normalized_image, depth_img.squeeze(0)), dim=0)
 
         return combined_image, actions  # Return combined image and actions
 
@@ -74,7 +84,7 @@ def train(data_folder, save_path):
     start_time = time.time()
 
     # Create the DataLoader
-    full_dataset = data(data_folder)  # Create dataset instance
+    full_dataset = CarlaDataset(data_folder)  # Create dataset instance
     full_size = len(full_dataset)
 
     # Split the dataset into training (70%), validation (15%), and testing (15%)
