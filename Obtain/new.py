@@ -34,6 +34,12 @@ class CarlaDataset(Dataset):
             json_dir = os.path.join(run_dir, 'json')
             self.data_list += glob.glob(os.path.join(json_dir, '*.json'))
 
+        # Ensure all lists have the same length
+        min_length = min(len(self.img_list), len(self.depth_list), len(self.data_list))
+        self.img_list = self.img_list[:min_length]
+        self.depth_list = self.depth_list[:min_length]
+        self.data_list = self.data_list[:min_length]
+
         print(f'Loaded {len(self.img_list)} images, {len(self.depth_list)} depth images, and {len(self.data_list)} action files.')
 
     def __len__(self):
@@ -56,23 +62,13 @@ class CarlaDataset(Dataset):
         # Load the corresponding depth image
         depth_path = self.depth_list[idx]
         depth_img = read_image(depth_path)
-        depth_img = depth_img.float() / 255.0  # Normalize depth if needed
+        depth_img = depth_img.float() / 255.0  # Normalize depth to [0, 1]
 
-        # Check the size of images
-        if normalized_image.shape[1:] == depth_img.shape[1:]:
-            # Sizes are already matching
-            combined_image = torch.cat((normalized_image, depth_img), dim=0)
-        else:
-            # Resize depth image to match the RGB image dimensions
-            depth_img = torch.nn.functional.interpolate(
-                depth_img.unsqueeze(0),
-                size=normalized_image.shape[1:],  # Make sure to resize to the shape of normalized_image
-                mode='bilinear',
-                align_corners=False
-            )
+        # Resize depth image to match the RGB image dimensions
+        depth_img = transforms.Resize(normalized_image.shape[1:])(depth_img)
 
-            # Concatenate the images
-            combined_image = torch.cat((normalized_image, depth_img.squeeze(0)), dim=0)
+        # Concatenate the images
+        combined_image = torch.cat((normalized_image, depth_img), dim=0)
 
         return combined_image, actions  # Return combined image and actions
 
