@@ -1,5 +1,3 @@
-
-
 import grpc
 import time
 import communication_pb2
