@@ -77,7 +77,7 @@ class CarlaDataset(Dataset):
             depth_img = transforms.Resize((300, 300))(depth_img)
 
             # Log image shapes for debugging
-            logging.info(f"RGB image shape: {normalized_image.shape}, Depth image shape: {depth_img.shape}")
+            # logging.info(f"RGB image shape: {normalized_image.shape}, Depth image shape: {depth_img.shape}")
 
             # Concatenate the images
             combined_image = torch.cat((normalized_image, depth_img), dim=0)
