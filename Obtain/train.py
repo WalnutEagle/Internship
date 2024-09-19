@@ -11,7 +11,8 @@ from cloud1_model import CustomRegNetY002  # Adjust this to your actual model na
 from dataloader import get_run_dataloader  # Import the new dataloader
 
 def train(run_folder, save_path):
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda')
+    print(device)
     nr_epochs = 200
     batch_size = 16
     start_time = time.time()
