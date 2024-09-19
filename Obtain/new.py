@@ -10,7 +10,7 @@ import os
 import json
 import time
 import argparse
-
+from cloud1_model import CustomRegNetY002
 
 # Define the dataset class
 class data(Dataset):
