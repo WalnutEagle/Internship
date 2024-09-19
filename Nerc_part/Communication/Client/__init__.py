@@ -1,1 +1,1 @@
-from client import send_tensor, receive_tensor, run
+from Internship.Nerc_part.Communication.Client.client import send_tensor, receive_tensor, run
