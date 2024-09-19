@@ -208,8 +208,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
-from cloud1_model import CustomRegNetY002  # Adjusted to match your model class name
-from cloud1_dataloader import get_dataloader, CarlaDataset
+from cloud1_model import CustomRegNetY002  # Ensure this matches your model class name
+from cloud1_dataloader import get_dataloader  # Import the DataLoader function
 import time
 import argparse
 from torch.utils.data import random_split
@@ -220,15 +220,17 @@ def train(data_folder, save_path):
     batch_size = 16
     start_time = time.time()
 
-    # Create the DataLoader
-    full_dataset = CarlaDataset(data_folder)  # Create dataset instance
-    full_size = len(full_dataset)
+    # Create the DataLoader for the full dataset
+    full_dataset = get_dataloader(data_folder, batch_size)
 
     # Split the dataset into training (70%), validation (15%), and testing (15%)
+    full_size = len(full_dataset.dataset)  # Access the dataset length directly
     train_size = int(0.7 * full_size)
     val_size = int(0.15 * full_size)
     test_size = full_size - train_size - val_size
-    train_dataset, val_dataset, test_dataset = random_split(full_dataset, [train_size, val_size, test_size])
+
+    # Perform the split
+    train_dataset, val_dataset, test_dataset = random_split(full_dataset.dataset, [train_size, val_size, test_size])
 
     # Create DataLoaders for each dataset
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
@@ -259,7 +261,7 @@ def train(data_folder, save_path):
 
             # Forward pass
             optimizer.zero_grad()
-            batch_out = model(batch_in)  # Pass only the combined RGB and depth images
+            batch_out = model(batch_in)  # Pass combined RGB and depth images
             loss = criterion(batch_out, batch_gt)
 
             # Backward pass and optimization
@@ -319,6 +321,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     train(args.data_folder, args.save_path)
+
 
 
 
