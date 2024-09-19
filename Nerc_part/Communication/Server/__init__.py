@@ -1,1 +1,1 @@
-from Internship.Nerc_part.Communication.Server.server import CommunicationService, serve
+from .server import CommunicationService, serve

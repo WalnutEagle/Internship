@@ -6,6 +6,7 @@ import numpy as np
 import timm
 from torchvision.models.feature_extraction import create_feature_extractor
 
+
 class CustomResNet18(nn.Module):
     def __init__(self):
         super(CustomResNet18, self).__init__()
