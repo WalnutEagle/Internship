@@ -61,7 +61,13 @@ class CarlaDataset(Dataset):
             # Load the corresponding RGB image
             img_path = self.img_list[idx]
             img = read_image(img_path)
-            img = img[:3, 120:600, 400:880]  # Crop the image
+
+            # Check if the image dimensions are valid
+            height, width = img.shape[1], img.shape[2]
+            if height < 600 or width < 880:
+                raise ValueError(f"Image size too small for cropping: {img.shape}")
+
+            img = img[:3, 120:min(600, height), 400:min(880, width)]  # Crop the image safely
             normalized_image = img.float() / 255.0  # Normalize image to [0, 1]
 
             # Load the corresponding depth image
@@ -82,6 +88,7 @@ class CarlaDataset(Dataset):
         except Exception as e:
             logging.error(f"Error processing item {idx}: {str(e)}")
             raise
+
 
 def train(data_folder, save_path):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
