@@ -90,7 +90,8 @@ class CarlaDataset(Dataset):
 
 
 def train(data_folder, save_path):
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda')
+    print(device)
     nr_epochs = 200
     batch_size = 16
     start_time = time.time()
