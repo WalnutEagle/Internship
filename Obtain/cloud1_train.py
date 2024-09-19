@@ -209,7 +209,7 @@ import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
 from cloud1_model import CustomRegNetY002  # Adjusted to match your model class name
-from cloud1_dataloader import get_dataloader
+from cloud1_dataloader import get_dataloader, CarlaDataset
 import time
 import argparse
 from torch.utils.data import random_split
