@@ -139,8 +139,8 @@ def preprocess_image(rgb_image_path, depth_image_path):
 if __name__ == "__main__":
     model = CustomRegNetY002()  # Initialize the model
 
-    rgb_image_path = 'path/to/your/image.jpg'
-    depth_image_path = 'path/to/your/depth_image.png'
+    rgb_image_path = '/home/h2x/Desktop/IL_DATA_COLLECTION_ADWAIT/Main_script/09-15-2024/rc_data/run_001/000000197_rgb.jpg'
+    depth_image_path = '/home/h2x/Desktop/IL_DATA_COLLECTION_ADWAIT/Main_script/09-15-2024/rc_data/run_001/000000197_disparity.png'
 
     combined_image = preprocess_image(rgb_image_path, depth_image_path) 
     outputs = model(combined_image) 
