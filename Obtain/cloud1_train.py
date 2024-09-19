@@ -204,11 +204,11 @@ if __name__ == "__main__":
     
 #     train(args.data_folder, args.save_path)
 
-'''import torch
+import torch
 import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
-from cloud1_model import CustomResNet18
+from cloud1_model import CustomRegNetY002  # Adjusted to match your model class name
 from cloud1_dataloader import get_dataloader
 import time
 import argparse
@@ -220,22 +220,23 @@ def train(data_folder, save_path):
     batch_size = 16
     start_time = time.time()
 
-    # Load the full dataset
-    full_dataset = get_dataloader(data_folder, batch_size)
+    # Create the DataLoader
+    full_dataset = CarlaDataset(data_folder)  # Create dataset instance
+    full_size = len(full_dataset)
 
     # Split the dataset into training (70%), validation (15%), and testing (15%)
-    train_size = int(0.7 * len(full_dataset))
-    val_size = int(0.15 * len(full_dataset))
-    test_size = len(full_dataset) - train_size - val_size
+    train_size = int(0.7 * full_size)
+    val_size = int(0.15 * full_size)
+    test_size = full_size - train_size - val_size
     train_dataset, val_dataset, test_dataset = random_split(full_dataset, [train_size, val_size, test_size])
 
-    # Create DataLoaders
+    # Create DataLoaders for each dataset
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
     # Initialize the model
-    model = CustomResNet18()
+    model = CustomRegNetY002()  # Ensure this matches your model definition
     model = nn.DataParallel(model)
     model.to(device)
     
@@ -252,14 +253,13 @@ def train(data_folder, save_path):
 
         # Training phase
         model.train()  # Set the model to training mode
-        for batch_idx, (batch_in, batch_depth, batch_gt) in enumerate(train_loader):
+        for batch_idx, (batch_in, batch_gt) in enumerate(train_loader):
             batch_in = batch_in.to(device)
-            batch_depth = batch_depth.to(device)
             batch_gt = batch_gt.to(device)
 
             # Forward pass
             optimizer.zero_grad()
-            batch_out = model(batch_in, batch_depth)  # Pass both RGB and depth images
+            batch_out = model(batch_in)  # Pass only the combined RGB and depth images
             loss = criterion(batch_out, batch_gt)
 
             # Backward pass and optimization
@@ -277,12 +277,11 @@ def train(data_folder, save_path):
         val_total_loss = 0
         with torch.no_grad():
             for val_batch in val_loader:
-                val_batch_in, val_batch_depth, val_batch_gt = val_batch
+                val_batch_in, val_batch_gt = val_batch
                 val_batch_in = val_batch_in.to(device)
-                val_batch_depth = val_batch_depth.to(device)
                 val_batch_gt = val_batch_gt.to(device)
 
-                val_outputs = model(val_batch_in, val_batch_depth)
+                val_outputs = model(val_batch_in)
                 val_loss = criterion(val_outputs, val_batch_gt)
                 val_total_loss += val_loss.item()
 
@@ -293,7 +292,7 @@ def train(data_folder, save_path):
         time_left = time_per_epoch * (nr_epochs - 1 - epoch)
         print(f"Epoch {epoch + 1}\t[Train]\tloss: {average_loss:.6f} \t[Val] loss: {average_val_loss:.6f} \tETA: +{time_left:.2f}s")
 
-    # Save everything in a single file
+    # Save the final model checkpoint
     final_checkpoint = {
         'epoch': nr_epochs,
         'model_state_dict': model.state_dict(),
@@ -304,7 +303,7 @@ def train(data_folder, save_path):
 
     # Plot loss values
     plt.figure()
-    plt.title('Loss Plot for Cloud Only Model')
+    plt.title('Loss Plot for RegNet Model')
     plt.plot(loss_values, label='Training Loss')
     plt.plot(val_loss_values, label='Validation Loss')
     plt.xlabel('Epoch')
@@ -314,15 +313,16 @@ def train(data_folder, save_path):
     plt.show()  # Display the plot
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='EC500 Homework1 Imitation Learning')
+    parser = argparse.ArgumentParser(description='Imitation Learning Training Script')
     parser.add_argument('-d', '--data_folder', default="/home/h2x/Desktop/IL_DATA_COLLECTION_ADWAIT/Main_script/09-15-2024", type=str, help='Path to your dataset')
     parser.add_argument('-s', '--save_path', default="/home/h2x/Desktop/IL_DATA_COLLECTION_ADWAIT/Main_script/09-15-2024/model.pth", type=str, help='Path to save your model')
     args = parser.parse_args()
     
-    train(args.data_folder, args.save_path)'''
+    train(args.data_folder, args.save_path)
 
 
-import torch
+
+'''import torch
 import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
@@ -438,3 +438,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     train(args.data_folder, args.save_path)
+'''
